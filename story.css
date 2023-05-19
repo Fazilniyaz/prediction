@@ -1,0 +1,40 @@
+#st{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+body{
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img{
+    height: 20rem;
+    width: 25rem;
+    transform: translate(28rem,0rem);
+    margin-bottom: 10rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+}
+header{
+    height: 4.5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid grey;
+    background-color: aliceblue;
+}
+
+#h1{
+    transform: translate(0rem,-66rem);
+}
+#h2{
+    transform: translate(0rem,-36rem);
+}
+#h3{
+    transform: translate(0rem,-6rem);
+}
